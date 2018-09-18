@@ -1,0 +1,66 @@
+{
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true,
+        "jest/globals": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:jest/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "jest"
+    ],
+    "rules": {
+        "indent": [
+            "off",
+            "tab"
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "semi": [
+            "warn",
+            "never"
+        ],
+        "arrow-parens": [
+            "warn",
+            "as-needed"
+        ],
+        "no-unused-vars": "warn",
+        "no-global-assign": "off",
+        "no-console": 1,
+        "no-debugger": "off",
+        "react/prop-types": "off",
+        "no-mixed-spaces-and-tabs": "off",
+        "no-extra-boolean-cast": "off",
+        "no-case-declarations": "off",
+        "no-unreachable": "warn",
+        "comma-dangle": "warn",
+        "comma-spacing": "warn",
+        "key-spacing": "warn",
+        "no-irregular-whitespace": "warn",
+        "no-duplicate-imports": "warn",
+        "no-multi-spaces": "warn",
+        "no-template-curly-in-string": "warn",
+        "no-unneeded-ternary": "warn",
+        "react/no-deprecated": "off",
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
+    }
+}
