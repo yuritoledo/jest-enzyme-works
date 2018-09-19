@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mounted Keypad should render correctly 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <Keypad
+    callOperator={[Function]}
+    numbers={Array []}
+    operators={Array []}
+    setOperator={[Function]}
+    updateDisplay={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "callOperator": [Function],
+      "numbers": Array [],
+      "operators": Array [],
+      "setOperator": [Function],
+      "updateDisplay": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="keypad-container"
+>
+        <div
+                class="numbers-container"
+        />
+        <div
+                class="operators-container"
+        />
+        <div
+                class="submit-container"
+        >
+                <div
+                        class="key-container submit-key"
+                >
+                        <p
+                                class="key-value"
+                        >
+                                =
+                        </p>
+                </div>
+        </div>
+</div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="numbers-container"
+>
+            
+</div>,
+          <div
+            className="operators-container"
+>
+            
+</div>,
+          <div
+            className="submit-container"
+>
+            <Key
+                        keyAction={[Function]}
+                        keyType="submit-key"
+                        keyValue="="
+            />
+</div>,
+        ],
+        "className": "keypad-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <div
+            class="numbers-container"
+/>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "numbers-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Array [],
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="operators-container"
+/>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "operators-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Array [],
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="submit-container"
+>
+            <div
+                        class="key-container submit-key"
+            >
+                        <p
+                                    class="key-value"
+                        >
+                                    =
+                        </p>
+            </div>
+</div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Key
+              keyAction={[Function]}
+              keyType="submit-key"
+              keyValue="="
+/>,
+            "className": "submit-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "keyAction": [Function],
+                "keyType": "submit-key",
+                "keyValue": "=",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": <div
+                  class="key-container submit-key"
+>
+                  <p
+                                    class="key-value"
+                  >
+                                    =
+                  </p>
+</div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <p
+                    className="key-value"
+>
+                    =
+</p>,
+                  "className": "key-container submit-key",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <p
+                      class="key-value"
+>
+                      =
+</p>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "=",
+                      "className": "key-value",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "=",
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "callOperator": [Function],
+        "numbers": Array [],
+        "operators": Array [],
+        "setOperator": [Function],
+        "updateDisplay": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="keypad-container"
+>
+          <div
+                    class="numbers-container"
+          />
+          <div
+                    class="operators-container"
+          />
+          <div
+                    class="submit-container"
+          >
+                    <div
+                              class="key-container submit-key"
+                    >
+                              <p
+                                        class="key-value"
+                              >
+                                        =
+                              </p>
+                    </div>
+          </div>
+</div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="numbers-container"
+>
+              
+</div>,
+            <div
+              className="operators-container"
+>
+              
+</div>,
+            <div
+              className="submit-container"
+>
+              <Key
+                            keyAction={[Function]}
+                            keyType="submit-key"
+                            keyValue="="
+              />
+</div>,
+          ],
+          "className": "keypad-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <div
+              class="numbers-container"
+/>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [],
+              "className": "numbers-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Array [],
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="operators-container"
+/>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [],
+              "className": "operators-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Array [],
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="submit-container"
+>
+              <div
+                            class="key-container submit-key"
+              >
+                            <p
+                                          class="key-value"
+                            >
+                                          =
+                            </p>
+              </div>
+</div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Key
+                keyAction={[Function]}
+                keyType="submit-key"
+                keyValue="="
+/>,
+              "className": "submit-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "keyAction": [Function],
+                  "keyType": "submit-key",
+                  "keyValue": "=",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": <div
+                    class="key-container submit-key"
+>
+                    <p
+                                        class="key-value"
+                    >
+                                        =
+                    </p>
+</div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <p
+                      className="key-value"
+>
+                      =
+</p>,
+                    "className": "key-container submit-key",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <p
+                        class="key-value"
+>
+                        =
+</p>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "=",
+                        "className": "key-value",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "=",
+                      ],
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
